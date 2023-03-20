@@ -1,17 +1,17 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Predict_Addon", "Predict_Addon.vcxproj", "{36BF90C2-0B1C-D4E8-EA5E-9C708A94C484}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Predict_Addon", "Predict_Addon.vcxproj", "{5784F8C7-FFEF-AD16-43BF-02B2764416F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x64 = Debug|x64
 		Release|x64 = Release|x64
+		Debug|x64 = Debug|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{36BF90C2-0B1C-D4E8-EA5E-9C708A94C484}.Debug|x64.ActiveCfg = Debug|x64
-		{36BF90C2-0B1C-D4E8-EA5E-9C708A94C484}.Debug|x64.Build.0 = Debug|x64
-		{36BF90C2-0B1C-D4E8-EA5E-9C708A94C484}.Release|x64.ActiveCfg = Release|x64
-		{36BF90C2-0B1C-D4E8-EA5E-9C708A94C484}.Release|x64.Build.0 = Release|x64
+		{5784F8C7-FFEF-AD16-43BF-02B2764416F5}.Release|x64.ActiveCfg = Release|x64
+		{5784F8C7-FFEF-AD16-43BF-02B2764416F5}.Release|x64.Build.0 = Release|x64
+		{5784F8C7-FFEF-AD16-43BF-02B2764416F5}.Debug|x64.ActiveCfg = Debug|x64
+		{5784F8C7-FFEF-AD16-43BF-02B2764416F5}.Debug|x64.Build.0 = Debug|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
