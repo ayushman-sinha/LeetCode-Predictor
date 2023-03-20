@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{36BF90C2-0B1C-D4E8-EA5E-9C708A94C484}</ProjectGuid>
+    <ProjectGuid>{5784F8C7-FFEF-AD16-43BF-02B2764416F5}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Predict_Addon</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
@@ -48,7 +48,8 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\KIIT\AppData\Local\node-gyp\Cache\14.17.6\include\node;C:\Users\KIIT\AppData\Local\node-gyp\Cache\14.17.6\src;C:\Users\KIIT\AppData\Local\node-gyp\Cache\14.17.6\deps\openssl\config;C:\Users\KIIT\AppData\Local\node-gyp\Cache\14.17.6\deps\openssl\openssl\include;C:\Users\KIIT\AppData\Local\node-gyp\Cache\14.17.6\deps\uv\include;C:\Users\KIIT\AppData\Local\node-gyp\Cache\14.17.6\deps\zlib;C:\Users\KIIT\AppData\Local\node-gyp\Cache\14.17.6\deps\v8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\iamro\AppData\Local\node-gyp\Cache\16.14.0\include\node;C:\Users\iamro\AppData\Local\node-gyp\Cache\16.14.0\src;C:\Users\iamro\AppData\Local\node-gyp\Cache\16.14.0\deps\openssl\config;C:\Users\iamro\AppData\Local\node-gyp\Cache\16.14.0\deps\openssl\openssl\include;C:\Users\iamro\AppData\Local\node-gyp\Cache\16.14.0\deps\uv\include;C:\Users\iamro\AppData\Local\node-gyp\Cache\16.14.0\deps\zlib;C:\Users\iamro\AppData\Local\node-gyp\Cache\16.14.0\deps\v8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck>true</BufferSecurityCheck>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
@@ -59,7 +60,7 @@
       <OmitFramePointers>false</OmitFramePointers>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=Predict_Addon;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;V8_DEPRECATION_WARNINGS;V8_IMMINENT_DEPRECATION_WARNINGS;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;DEBUG;_DEBUG;V8_ENABLE_CHECKS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=Predict_Addon;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;V8_DEPRECATION_WARNINGS;V8_IMMINENT_DEPRECATION_WARNINGS;_GLIBCXX_USE_CXX11_ABI=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;DEBUG;_DEBUG;V8_ENABLE_CHECKS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <StringPooling>true</StringPooling>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -71,7 +72,7 @@
       <AdditionalOptions>/LTCG:INCREMENTAL %(AdditionalOptions)</AdditionalOptions>
     </Lib>
     <Link>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\\Users\\KIIT\\AppData\\Local\\node-gyp\\Cache\\14.17.6\\x64\\node.lib&quot;</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\\Users\\iamro\\AppData\\Local\\node-gyp\\Cache\\16.14.0\\x64\\node.lib&quot;</AdditionalDependencies>
       <AdditionalOptions>/LTCG:INCREMENTAL /ignore:4199 %(AdditionalOptions)</AdditionalOptions>
       <DelayLoadDLLs>node.exe;%(DelayLoadDLLs)</DelayLoadDLLs>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -83,13 +84,14 @@
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
     <ResourceCompile>
-      <AdditionalIncludeDirectories>C:\Users\KIIT\AppData\Local\node-gyp\Cache\14.17.6\include\node;C:\Users\KIIT\AppData\Local\node-gyp\Cache\14.17.6\src;C:\Users\KIIT\AppData\Local\node-gyp\Cache\14.17.6\deps\openssl\config;C:\Users\KIIT\AppData\Local\node-gyp\Cache\14.17.6\deps\openssl\openssl\include;C:\Users\KIIT\AppData\Local\node-gyp\Cache\14.17.6\deps\uv\include;C:\Users\KIIT\AppData\Local\node-gyp\Cache\14.17.6\deps\zlib;C:\Users\KIIT\AppData\Local\node-gyp\Cache\14.17.6\deps\v8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=Predict_Addon;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;V8_DEPRECATION_WARNINGS;V8_IMMINENT_DEPRECATION_WARNINGS;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;DEBUG;_DEBUG;V8_ENABLE_CHECKS;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\iamro\AppData\Local\node-gyp\Cache\16.14.0\include\node;C:\Users\iamro\AppData\Local\node-gyp\Cache\16.14.0\src;C:\Users\iamro\AppData\Local\node-gyp\Cache\16.14.0\deps\openssl\config;C:\Users\iamro\AppData\Local\node-gyp\Cache\16.14.0\deps\openssl\openssl\include;C:\Users\iamro\AppData\Local\node-gyp\Cache\16.14.0\deps\uv\include;C:\Users\iamro\AppData\Local\node-gyp\Cache\16.14.0\deps\zlib;C:\Users\iamro\AppData\Local\node-gyp\Cache\16.14.0\deps\v8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=Predict_Addon;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;V8_DEPRECATION_WARNINGS;V8_IMMINENT_DEPRECATION_WARNINGS;_GLIBCXX_USE_CXX11_ABI=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;DEBUG;_DEBUG;V8_ENABLE_CHECKS;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\KIIT\AppData\Local\node-gyp\Cache\14.17.6\include\node;C:\Users\KIIT\AppData\Local\node-gyp\Cache\14.17.6\src;C:\Users\KIIT\AppData\Local\node-gyp\Cache\14.17.6\deps\openssl\config;C:\Users\KIIT\AppData\Local\node-gyp\Cache\14.17.6\deps\openssl\openssl\include;C:\Users\KIIT\AppData\Local\node-gyp\Cache\14.17.6\deps\uv\include;C:\Users\KIIT\AppData\Local\node-gyp\Cache\14.17.6\deps\zlib;C:\Users\KIIT\AppData\Local\node-gyp\Cache\14.17.6\deps\v8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\iamro\AppData\Local\node-gyp\Cache\16.14.0\include\node;C:\Users\iamro\AppData\Local\node-gyp\Cache\16.14.0\src;C:\Users\iamro\AppData\Local\node-gyp\Cache\16.14.0\deps\openssl\config;C:\Users\iamro\AppData\Local\node-gyp\Cache\16.14.0\deps\openssl\openssl\include;C:\Users\iamro\AppData\Local\node-gyp\Cache\16.14.0\deps\uv\include;C:\Users\iamro\AppData\Local\node-gyp\Cache\16.14.0\deps\zlib;C:\Users\iamro\AppData\Local\node-gyp\Cache\16.14.0\deps\v8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <BufferSecurityCheck>true</BufferSecurityCheck>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
       <DisableSpecificWarnings>4351;4355;4800;4251;4275;4244;4267;%(DisableSpecificWarnings)</DisableSpecificWarnings>
@@ -102,7 +104,7 @@
       <OmitFramePointers>true</OmitFramePointers>
       <Optimization>Full</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=Predict_Addon;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;V8_DEPRECATION_WARNINGS;V8_IMMINENT_DEPRECATION_WARNINGS;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=Predict_Addon;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;V8_DEPRECATION_WARNINGS;V8_IMMINENT_DEPRECATION_WARNINGS;_GLIBCXX_USE_CXX11_ABI=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <StringPooling>true</StringPooling>
@@ -115,7 +117,7 @@
       <AdditionalOptions>/LTCG:INCREMENTAL %(AdditionalOptions)</AdditionalOptions>
     </Lib>
     <Link>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\\Users\\KIIT\\AppData\\Local\\node-gyp\\Cache\\14.17.6\\x64\\node.lib&quot;</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\\Users\\iamro\\AppData\\Local\\node-gyp\\Cache\\16.14.0\\x64\\node.lib&quot;</AdditionalDependencies>
       <AdditionalOptions>/LTCG:INCREMENTAL /ignore:4199 %(AdditionalOptions)</AdditionalOptions>
       <DelayLoadDLLs>node.exe;%(DelayLoadDLLs)</DelayLoadDLLs>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -127,8 +129,8 @@
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
     <ResourceCompile>
-      <AdditionalIncludeDirectories>C:\Users\KIIT\AppData\Local\node-gyp\Cache\14.17.6\include\node;C:\Users\KIIT\AppData\Local\node-gyp\Cache\14.17.6\src;C:\Users\KIIT\AppData\Local\node-gyp\Cache\14.17.6\deps\openssl\config;C:\Users\KIIT\AppData\Local\node-gyp\Cache\14.17.6\deps\openssl\openssl\include;C:\Users\KIIT\AppData\Local\node-gyp\Cache\14.17.6\deps\uv\include;C:\Users\KIIT\AppData\Local\node-gyp\Cache\14.17.6\deps\zlib;C:\Users\KIIT\AppData\Local\node-gyp\Cache\14.17.6\deps\v8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=Predict_Addon;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;V8_DEPRECATION_WARNINGS;V8_IMMINENT_DEPRECATION_WARNINGS;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\iamro\AppData\Local\node-gyp\Cache\16.14.0\include\node;C:\Users\iamro\AppData\Local\node-gyp\Cache\16.14.0\src;C:\Users\iamro\AppData\Local\node-gyp\Cache\16.14.0\deps\openssl\config;C:\Users\iamro\AppData\Local\node-gyp\Cache\16.14.0\deps\openssl\openssl\include;C:\Users\iamro\AppData\Local\node-gyp\Cache\16.14.0\deps\uv\include;C:\Users\iamro\AppData\Local\node-gyp\Cache\16.14.0\deps\zlib;C:\Users\iamro\AppData\Local\node-gyp\Cache\16.14.0\deps\v8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=Predict_Addon;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;V8_DEPRECATION_WARNINGS;V8_IMMINENT_DEPRECATION_WARNINGS;_GLIBCXX_USE_CXX11_ABI=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -138,7 +140,7 @@
     <ClCompile Include="..\calculate.cpp">
       <ObjectFileName>$(IntDir)\calculate.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\Users\KIIT\AppData\Roaming\npm\node_modules\node-gyp\src\win_delay_load_hook.cc"/>
+    <ClCompile Include="C:\Users\iamro\AppData\Roaming\npm\node_modules\node-gyp\src\win_delay_load_hook.cc"/>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
   <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets"/>
